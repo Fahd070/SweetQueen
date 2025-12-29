@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en, ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Queen</title>
+    <link rel="icon" href="images/logo.png" type="images/icon-x">
+    <link rel="stylesheet" href="sweetQueen.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-line">
+            <p class="css-counter js-counter">0</p>
+            <i class="ri-shopping-cart-line"></i>
+            <img class="logo-image" src="images/logo.png" alt="Logo" title="This is Sweet Queen" onclick="
+            location.href='http://127.0.0.1:5500/sweetQueen.html#';
+            ">
+            <div class="above">
+                <i class="ri-user-line user2"></i>
+                <i class="material-icons">search</i>
+                <button class="css-list js-list">list &#8801;</button>
+                <div class="search1">
+                <input type="text" class="search" placeholder="ابحث هنا!">
+                <button class="do-search" type="submit">بحث</button>
+                <i class="ri-close-line closer-search" style="font-size: 25px; position: absolute; right: 439px; top: 39px;"></i>
+                </div>
+            </div>
+        </div>
+        <dialog class="show">
+            <i class="ri-close-line" onclick="document.querySelector('.show').close()"></i>
+            <div class="login">
+                <h3>تسجيل دخول</h3>
+                <div class="username">
+                <i class="ri-user-line user1"></i>
+                <input type="text" placeholder="UserName">
+                </div>
+                <div class="password">
+                <i class="ri-lock-line"></i>
+                <input type="password" placeholder="Password">
+                </div>
+                <button class="submit" type="submit">دخول</button>
+                <button class="reset" type="reset">إعادة تعيين</button>
+                <a class="forget">نسيت كلمة المرور؟</a>
+            </div>
+        </dialog>
+        <div class="hide container move">
+                <nav class="lists">
+                    <i class="ri-close-large-fill"></i>
+                    <a href="#">Home</a>
+                    <a class="line"></a>
+                    <a href="#list">List</a>
+                    <a class="line"></a>
+                    <a href="#comment">Comment</a>
+                    <a class="line"></a>
+                    <a href="#contact">Contact us</a>
+                </nav>
+            </div>
+    </header>
+    <main>
+        <div class="board">
+            <div class="slider">
+                <div class="en">
+                    <img class="img1" src="images/logo.png" alt="logo">
+                     <p class="p1">Welcome to our world! <br> Here you
+                    will find everything you need about sweet!
+                </p>
+                </div>
+                <div class="ar">
+                    <img src="images/logo.png" alt="logo" class="img2">
+                    <p class="p2">مرحبا بك في عالم الحلويات!<br>
+                هنا ستجد كل شي يتعلق بالحلويات!</p>
+                </div>
+            </div>
+        </div>
+        <img class="small-logo" src="images/logo.png" alt="sweet queen logo">
+        <div id="list">
+        <div class="products js-products">
+
+            </div>
+            </div>
+        
+
+            <div class="board2">
+            <div class="advertisement">
+                    <img class="img11" src="images/flower1.jpg" alt="flower1">
+                    <img class="img22" src="images/flower2.jpg" alt="flower2">
+                    <img class="img33" src="images/flower3.jpg" alt="flower3">
+            </div>
+        </div>
+        <div id="comment">
+            <div class="comments">
+            <div class="person1">
+                <img class="picture" src="https://cdn.assets.salla.network/prod/stores/themes/default/assets/images/avatar_female.png" alt="picture">
+                <div>
+                     <img class="rating" src="images/rating-removebg-preview.png" alt="5 rating">
+                </div>
+                <p>خدمة ممتازة وسريعة</p>
+            </div>
+            <div class="person2">
+                <img class="picture" src="https://cdn.assets.salla.network/prod/stores/themes/default/assets/images/avatar_female.png" alt="picture">
+                <div>
+                     <img class="rating" src="images/rating-removebg-preview.png" alt="5 rating">
+                </div>
+                <p>افضل موقع لبيع الحلويات</p>
+            </div>
+            <div class="person3">
+                <img class="picture" src="https://cdn.assets.salla.network/prod/stores/themes/default/assets/images/avatar_male.png" alt="picture">
+                <div>
+                     <img class="rating" src="images/rating-removebg-preview.png" alt="5 rating">
+                </div>
+                <p>خدمة مريحة</p>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <a class="back-to-top" href="#"><i class="ri-arrow-up-long-line"></i> العودة الى الاعلى</a>
+        <p class="ps">روابط تهمك</p>
+        <div class="social-media" id="contact">
+            <a href="https://www.instagram.com/sweetsqueen77?igsh=NnQzbzBveW5rbmF4" target="_blank"><i class="ri-instagram-line"></i></a>
+            <a href="https://snapchat.com/t/9dn4PsQi" target="_blank"><i class="ri-snapchat-line"></i></a>
+            <a href="+996501698445" target="_blank"><i class="ri-whatsapp-line"></i></a>
+            <a href="https://www.tiktok.com/@.sweets.queen?_r=1&_t=ZS-91MwHxzD3qa" target="_blank"><i class="ri-tiktok-fill"></i></a>
+        </div>
+        <p class="copyright">&lt;&lt;&lt;&copy; ملكة الحلويات &gt;&gt;&gt;</p>
+        
+    </footer>
+
+    <script src="javascript/sweetQueen.js"></script>
+    <script type="module" src="javascript/products.js"></script>
+</body>
+</html>

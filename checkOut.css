@@ -1,0 +1,40 @@
+body {
+    width: fit-content;
+}
+.back-up {
+    position: relative;
+}
+.ps, .social-media, .copyright {
+    position: relative;
+    top: 700px;
+}
+.ps, .social-media {
+    margin: 20px 0px;
+    position: relative;
+    top: 660px;
+}
+.copyright {
+    top: 700px;
+}
+hr {
+    width: 732%;
+}
+.review {
+    border: 1px solid #33333345;
+    position: relative;
+    top: 200px;
+    left: 450px;
+    width: 600px;
+    border-radius: 20px;
+}
+.summery {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.Info {
+    position: relative;
+    right: 10px;
+    top: 25px;
+    font-size: 25px;
+}
